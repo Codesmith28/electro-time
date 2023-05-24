@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "title": "Meeting",
+      "times": [
+        {
+          "start": "9:00 AM",
+          "end": "10:00 AM"
+        },
+        {
+          "start": "2:00 PM",
+          "end": "3:00 PM"
+        }
+      ],
+      "days": ["Mon", "Tue", "Wed"]
+    }
+  ]
+  

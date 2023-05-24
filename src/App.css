@@ -1,38 +1,30 @@
-.App {
+@import 'daisyui/dist/full.css';
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.drawer-overlay{
+  /* transparent */
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.subHeading{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+.table-zebra{
+  width: 25%;
+  /* set font size as per the screen size */
+  font-size: 0.9vw; 
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 0px;
 }
